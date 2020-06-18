@@ -1,5 +1,5 @@
 {
-  "name": "lodash",
+  "name": "@johnfrancis/lodash",
   "version": "1.0.0",
   "description": "sample lodash functions",
   "main": "lodash.js",
@@ -10,6 +10,10 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cpt-John/lodash_sample"
-  }
+    "url": "git+https://github.com/cpt-John/lodash_sample.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cpt-John/lodash_sample/issues"
+  },
+  "homepage": "https://github.com/cpt-John/lodash_sample#readme"
 }
