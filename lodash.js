@@ -78,9 +78,9 @@ const join = (array, seperator) => {
 };
 
 // Returs array  without  given values from input array
-const pull = (array, arrayToRemove) => {
+const pull = (array, pullArray) => {
   return array.reduce((result, e) => {
-    if (!arrayToRemove.includes(e)) result = [...result, e];
+    if (!pullArray.includes(e)) result = [...result, e];
     return result;
   }, []);
 };
